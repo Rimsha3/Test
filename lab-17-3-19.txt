@@ -1,0 +1,14 @@
+sudo useradd user1
+sudo passwd user1
+--type password which is user1
+sudo usermod -aG sudo user1
+sudo su - user1
+
+sudo apt-get update
+sudo apt-get install ansible --in ansible server only
+
+ctrl+D--to go to back to ubuntu from user
+
+
+
+cd /root/.ssh
